@@ -105,3 +105,6 @@ function hint() {
 document.getElementById("hintButton").addEventListener("click", (event) => {
     hint();
 })
+document.getElementById("homeButton").addEventListener("click", (event) => {
+    window.location.replace("index.html")
+})

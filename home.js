@@ -7,7 +7,7 @@ document.getElementById("easyButton").addEventListener("click", (event) => {
 
     }
 
-    window.open("game.html")
+    window.location.replace("game.html")
 })
 document.getElementById("mediumButton").addEventListener("click", (event) => {
     localStorage.setItem('level', 'medium');
@@ -29,5 +29,5 @@ document.getElementById("hardButton").addEventListener("click", (event) => {
 
     }
 
-    window.open("game.html")
+    window.location.replace("game.html")
 })
