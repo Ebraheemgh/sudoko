@@ -1,0 +1,154 @@
+body {
+    background-image: linear-gradient(to right, rgb(223, 218, 213), rgb(83, 83, 83));
+}
+
+.gameCell {
+    width: 50px;
+    height: 50px;
+    background-color: burlywood;
+    border: black solid 1px;
+    justify-content: center;
+    display: flex;
+    font-size: xx-large;
+}
+
+.answerCell {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: burlywood;
+    border: black solid 1px;
+    justify-content: center;
+    display: flex;
+    font-size: xxx-large;
+}
+
+.answerCell:hover {
+    cursor: pointer;
+}
+
+.timer {
+    border: chartreuse solid 2px;
+}
+
+#borderGame {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.options {
+    width: 100%;
+    background-color: coral;
+    border: 5px solid black;
+}
+
+.submit {
+    width: 100%;
+    padding: auto;
+    display: flex;
+}
+
+.toRight {
+    margin-left: auto;
+    font-size: xx-large;
+}
+
+.home {
+    width: 400px;
+    height: 550px;
+    border: black solid 2px;
+    background-color: burlywood;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.homeButtons {
+    margin: 15% 30% 10% 30%;
+}
+
+.homeButtons button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.topImg {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.logo {
+    height: 200px;
+}
+
+.answerSquare {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    border: black 5px solid;
+    display: none;
+}
+
+.options {
+    display: flex;
+    margin: auto;
+}
+
+.dellcell {
+    width: 100%;
+}
+
+.borderTop {
+    border-top: 5px solid black;
+}
+
+.borderRight {
+    border-right: 5px solid black;
+    ;
+}
+
+.borderLeft {
+    border-left: 5px solid black;
+    ;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    border: 5px solid black;
+    ;
+}
+
+.button {
+    background-color: rgb(173, 192, 216);
+    color: black;
+    border: 2px solid #008CBA;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.button:hover {
+    background-color: #008CBA;
+    color: white;
+    border: black solid 2px;
+    ;
+}
