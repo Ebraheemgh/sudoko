@@ -6,7 +6,7 @@ var selectedCell;
 var theSudoko;
 var theAnswer;
 var theCorrectAnswer;
-//comment
+
 function generateGame(level) {
 
     if (level === "easy") {
